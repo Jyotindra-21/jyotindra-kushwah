@@ -7,7 +7,7 @@
 }
 /*===== Colores =====*/
 :root {
-  --first-color: rgb(252, 163, 17);
+  --first-color: #fca311;
   --second-color: #14213d;
 }
 
@@ -204,6 +204,9 @@ img {
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+}
+.home__title span.wrap{
+  color: var(--second-color);
 }
 .home__title-color {
   color: var(--first-color);
